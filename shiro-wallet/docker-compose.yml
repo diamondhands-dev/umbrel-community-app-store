@@ -1,0 +1,18 @@
+version: "3.7"
+
+services:
+  app_proxy:
+    environment:
+      APP_HOST: shiro-wallet_web_1
+      APP_PORT: 8080
+
+  web:
+    image: ghcr.io/diamondhands-dev/shiro-frontend:latest
+    restart: on-failure
+    stop_grace_period: 1m
+    environment:
+        BITCOIN_NETWORK_NAME: testnet
+    ports:
+      - 8080:8080
+    volumes:
+      - ${APP_DATA_DIR}/tmp/shiro-wallet:/tmp/shiro-wallet
