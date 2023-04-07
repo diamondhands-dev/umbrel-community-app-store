@@ -2,7 +2,7 @@ manifestVersion: 1
 id: diamondhands-shiro-wallet
 category: Wallet
 name: Shiro Wallet
-version: "0.0.1"
+version: "0.0.2"
 tagline: RGB Wallet
 description: >-
   Shiro Wallet is a full-featured, self-hosted RGB wallet for the

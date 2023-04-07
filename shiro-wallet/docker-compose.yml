@@ -10,8 +10,6 @@ services:
     image: ghcr.io/diamondhands-dev/shiro-frontend:latest
     restart: on-failure
     stop_grace_period: 1m
-    environment:
-        BITCOIN_NETWORK_NAME: testnet
     ports:
       - 8080:8080
     volumes:
