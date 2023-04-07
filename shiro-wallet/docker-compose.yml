@@ -3,7 +3,7 @@ version: "3.7"
 services:
   app_proxy:
     environment:
-      APP_HOST: shiro-wallet_web_1
+      APP_HOST: diamondhands-shiro-wallet_web_1
       APP_PORT: 8080
 
   web:
