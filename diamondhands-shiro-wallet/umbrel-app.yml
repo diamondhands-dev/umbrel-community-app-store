@@ -13,7 +13,7 @@ website: https://www.diamondhandsnode.com/
 dependencies: []
 repo: https://github.com/orgs/diamondhands-dev/
 support: https://github.com/orgs/diamondhands-dev/
-port: 4443
+port: 4444
 gallery:
   - 1.jpg
   - 2.jpg
