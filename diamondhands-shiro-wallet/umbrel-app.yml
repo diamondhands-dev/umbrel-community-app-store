@@ -2,7 +2,7 @@ manifestVersion: 1
 id: diamondhands-shiro-wallet
 category: Wallet
 name: Shiro Wallet
-version: "0.0.4"
+version: "0.0.5"
 icon: https://svgshare.com/i/sJz.svg
 tagline: RGB Wallet
 description: >-
