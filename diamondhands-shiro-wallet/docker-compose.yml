@@ -5,12 +5,12 @@ services:
     environment:
       # The format here is: <app-id>_<docker-service-name>_1
       APP_HOST: diamondhands-shiro-wallet_web_1
-      APP_PORT: 4443
+      APP_PORT: 4444
   web:
     image: ghcr.io/diamondhands-dev/shiro-frontend:0.1.10
     restart: on-failure
     stop_grace_period: 1m
     ports:
-      - 8080
+      - 4444:8080
     volumes:
       - ${APP_DATA_DIR}/tmp/shiro-wallet:/tmp/shiro-wallet
