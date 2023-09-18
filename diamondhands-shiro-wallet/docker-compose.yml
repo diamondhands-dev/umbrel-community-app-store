@@ -10,7 +10,7 @@ services:
     image: ghcr.io/diamondhands-dev/shiro-frontend:0.1.10
     restart: on-failure
     stop_grace_period: 1m
-    ports:
-      - 4445:8080
+    environment:
+      API_ROOT: "http://diamondhands-shiro-wallet_web_1:8080"
     volumes:
       - ${APP_DATA_DIR}/tmp/shiro-wallet:/tmp/shiro-wallet
